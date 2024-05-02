@@ -1,7 +1,7 @@
-
-using API.Entities;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using Core.Entities;
+using Infrastructure.Data;
 
 namespace API.Controllers
 {
@@ -9,7 +9,7 @@ namespace API.Controllers
       [Route("api/[controller]")]
     public class ProductsController : ControllerBase
     {
-      private readonly StoreContext _context;
+      private readonly Infrastructure.Data.StoreContext _context;
       public ProductsController(StoreContext context){
           _context=context;
       }
