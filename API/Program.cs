@@ -22,6 +22,7 @@ app.UseSwaggerUI();
 
 
 app.UseStaticFiles();
+app.UseCors("CorsPolicy");
 app.UseAuthorization();
 
 app.MapControllers();
@@ -39,7 +40,7 @@ try
 }
 catch (Exception ex)
 {
-    
-    logger.LogError(ex,"An error occured during migration");
+
+    logger.LogError(ex, "An error occured during migration");
 }
 app.Run();
