@@ -133,3 +133,5 @@ C:\Users\owner\desktop\skinet\API\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysi
 C:\Users\owner\desktop\skinet\API\bin\Debug\net8.0\AutoMapper.dll
 C:\Users\owner\desktop\skinet\API\bin\Debug\net8.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
 C:\Users\owner\desktop\skinet\API\bin\Debug\net8.0\API.staticwebassets.runtime.json
+C:\Users\owner\desktop\skinet\api\bin\Debug\net8.0\Pipelines.Sockets.Unofficial.dll
+C:\Users\owner\desktop\skinet\api\bin\Debug\net8.0\StackExchange.Redis.dll

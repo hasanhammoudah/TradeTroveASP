@@ -4,6 +4,7 @@ using Infrastructure.Data;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
+using StackExchange.Redis;
 
 namespace API.Extenstions
 {
@@ -17,9 +18,16 @@ namespace API.Extenstions
             {
                 opt.UseSqlite(config.GetConnectionString("DefaultConnection"));
             });
+            services.AddScoped<IBasketRepository, BasketRepository>();     
             services.AddScoped<IProductRepository, ProductRepository>();
+
             services.AddScoped(typeof(IGenericRepository<>), typeof(GenericRepository<>));
             services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
+            services.AddSingleton<IConnectionMultiplexer>(c =>
+            {
+             var options = ConfigurationOptions.Parse(config.GetConnectionString("Redis"));
+             return ConnectionMultiplexer.Connect(options);
+            });
             //Note : This code snippet configures an ASP.NET Core API to customize the handling of invalid model state responses by creating a custom response containing detailed validation error messages extracted from the model state.
             services.Configure<ApiBehaviorOptions>(options =>
             {
