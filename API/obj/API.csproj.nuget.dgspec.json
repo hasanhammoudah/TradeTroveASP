@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\owner\\desktop\\skinet\\API\\API.csproj": {}
+    "C:\\Users\\owner\\desktop\\skinet\\api\\API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\owner\\desktop\\skinet\\API\\API.csproj": {
+    "C:\\Users\\owner\\desktop\\skinet\\api\\API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\owner\\desktop\\skinet\\API\\API.csproj",
+        "projectUniqueName": "C:\\Users\\owner\\desktop\\skinet\\api\\API.csproj",
         "projectName": "API",
-        "projectPath": "C:\\Users\\owner\\desktop\\skinet\\API\\API.csproj",
+        "projectPath": "C:\\Users\\owner\\desktop\\skinet\\api\\API.csproj",
         "packagesPath": "C:\\Users\\owner\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\owner\\desktop\\skinet\\API\\obj\\",
+        "outputPath": "C:\\Users\\owner\\desktop\\skinet\\api\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -56,6 +56,10 @@
             "AutoMapper.Extensions.Microsoft.DependencyInjection": {
               "target": "Package",
               "version": "[12.0.1, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[8.0.7, )"
             },
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
@@ -135,6 +139,12 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.7, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -204,13 +214,25 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Identity": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
             "Microsoft.EntityFrameworkCore.Sqlite": {
               "target": "Package",
               "version": "[8.0.4, )"
             },
+            "Microsoft.IdentityModel.Tokens": {
+              "target": "Package",
+              "version": "[8.0.0-preview1, )"
+            },
             "StackExchange.Redis": {
               "target": "Package",
               "version": "[2.8.0, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[8.0.0-preview1, )"
             }
           },
           "imports": [
