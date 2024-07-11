@@ -1,6 +1,7 @@
 using API.Errors;
 using Core.Interfaces;
 using Infrastructure.Data;
+using Infrastructure.Services;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
@@ -20,7 +21,7 @@ namespace API.Extenstions
             });
             services.AddScoped<IBasketRepository, BasketRepository>();     
             services.AddScoped<IProductRepository, ProductRepository>();
-
+            services.AddScoped<ITokenService,TokenService>();
             services.AddScoped(typeof(IGenericRepository<>), typeof(GenericRepository<>));
             services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
             services.AddSingleton<IConnectionMultiplexer>(c =>
