@@ -4,6 +4,7 @@ import { HomeComponent } from './home/home.component';
 import { TestErrorComponent } from './core/test-error/test-error.component';
 import { NotFoundComponent } from './core/not-found/not-found.component';
 import { ServerErrorComponent } from './core/server-error/server-error.component';
+import { AuthGuard } from './core/guards/auth.guard';
 
 const routes: Routes = [
   {path:'',component: HomeComponent,data:{breadcrumb:'Home'}},
@@ -14,7 +15,8 @@ const routes: Routes = [
   //TODO read more this
   {path:'shop',loadChildren:() => import('./shop/shop.module').then(m=>m.ShopModule)},
   {path:'basket',loadChildren:() => import('./basket/basket.module').then(m=>m.BasketModule)},
-  {path:'checkout',loadChildren:() => import('./checkout/checkout.module').then(m=>m.CheckoutModule)},
+  {path:'checkout',canActivate:[AuthGuard],
+    loadChildren:() => import('./checkout/checkout.module').then(m=>m.CheckoutModule)},
   {path:'account',loadChildren:() => import('./account/account.module').then(m=>m.AccountModule)},
   {path:'**',redirectTo:'',pathMatch:'full'},
 
