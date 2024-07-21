@@ -19,6 +19,7 @@ namespace API.Extenstions
             {
                 opt.UseSqlite(config.GetConnectionString("DefaultConnection"));
             });
+            services.AddScoped<IUnitOfWork,UnitOfWork>();
             services.AddScoped<IBasketRepository, BasketRepository>();     
             services.AddScoped<IProductRepository, ProductRepository>();
             services.AddScoped<ITokenService,TokenService>();
