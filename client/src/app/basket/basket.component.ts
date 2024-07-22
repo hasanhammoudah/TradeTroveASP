@@ -8,13 +8,15 @@ import { BasketItem } from '../shared/models/basket';
   styleUrls: ['./basket.component.scss']
 })
 export class BasketComponent {
-constructor(public basketService:BasketService){}
 
-incrementQuantity(item:BasketItem){
-this.basketService.addItemToBasket(item);
-}
+  constructor(public basketService: BasketService) {}
 
-removeItem(id:number,quantity:number){
-  this.basketService.removeItemFromBasket(id,quantity);
-}
+  incrementQuantity(item: BasketItem) {
+    this.basketService.addItemToBasket(item);
+  }
+//TODO
+  removeItem(event: {id: number, quantity: number}) {
+    this.basketService.removeItemFromBasket(event.id, event.quantity);
+  }
+
 }

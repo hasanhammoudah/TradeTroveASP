@@ -1,3 +1,4 @@
+import { RouterModule } from '@angular/router';
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { PaginationModule } from 'ngx-bootstrap/pagination';
@@ -10,6 +11,7 @@ import { BsDropdownModule } from 'ngx-bootstrap/dropdown';
 import { TestInputComponent } from './components/test-input/test-input.component';
 import { StepperComponent } from './components/stepper/stepper.component';
 import {CdkStepperModule} from '@angular/cdk/stepper';
+import { BasketSummaryComponent } from './basket-summary/basket-summary.component';
 
 
 
@@ -21,7 +23,8 @@ import {CdkStepperModule} from '@angular/cdk/stepper';
     PagerComponent,
     OrderTotalsComponent,
     TestInputComponent,
-    StepperComponent
+    StepperComponent,
+    BasketSummaryComponent
   ],
   imports: [
     CommonModule,
@@ -29,7 +32,8 @@ import {CdkStepperModule} from '@angular/cdk/stepper';
     CarouselModule.forRoot(),
     ReactiveFormsModule,
     BsDropdownModule.forRoot(),
-    CdkStepperModule
+    CdkStepperModule,
+    RouterModule
 
   ],
   //TODO why i use exports here
@@ -43,7 +47,8 @@ import {CdkStepperModule} from '@angular/cdk/stepper';
     BsDropdownModule,
     TestInputComponent,
     StepperComponent,
-    CdkStepperModule
+    CdkStepperModule,
+    BasketSummaryComponent
   ]
 })
 export class SharedModule { }
