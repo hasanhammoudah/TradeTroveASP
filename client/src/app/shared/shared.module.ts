@@ -8,6 +8,8 @@ import { OrderTotalsComponent } from './order-totals/order-totals.component';
 import { ReactiveFormsModule } from '@angular/forms';
 import { BsDropdownModule } from 'ngx-bootstrap/dropdown';
 import { TestInputComponent } from './components/test-input/test-input.component';
+import { StepperComponent } from './components/stepper/stepper.component';
+import {CdkStepperModule} from '@angular/cdk/stepper';
 
 
 
@@ -18,14 +20,17 @@ import { TestInputComponent } from './components/test-input/test-input.component
     PagingHeaderComponent,
     PagerComponent,
     OrderTotalsComponent,
-    TestInputComponent
+    TestInputComponent,
+    StepperComponent
   ],
   imports: [
     CommonModule,
     PaginationModule.forRoot(),
     CarouselModule.forRoot(),
     ReactiveFormsModule,
-    BsDropdownModule.forRoot()
+    BsDropdownModule.forRoot(),
+    CdkStepperModule
+
   ],
   //TODO why i use exports here
   exports:[
@@ -37,6 +42,8 @@ import { TestInputComponent } from './components/test-input/test-input.component
     ReactiveFormsModule,
     BsDropdownModule,
     TestInputComponent,
+    StepperComponent,
+    CdkStepperModule
   ]
 })
 export class SharedModule { }
