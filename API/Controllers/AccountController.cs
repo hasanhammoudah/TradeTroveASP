@@ -17,6 +17,10 @@ namespace API.Controllers
 {
     public class AccountController : BaseApiController
     {
+       /// <summary>
+      /// UserManager<AppUser>: Manages user-related operations like creating, retrieving, updating, and deleting users, and managing their passwords, roles, and claims.
+      /// SignInManager<AppUser>: Manages authentication operations like signing users in and out, checking sign-in status, handling two-factor authentication, and dealing with external login providers.
+      /// </summary>
         private readonly UserManager<AppUser> _userManager;
         private readonly SignInManager<AppUser> _signInManager;
          private readonly ITokenService _tokenService;
@@ -33,8 +37,6 @@ namespace API.Controllers
         [Authorize]
         [HttpGet]
         public async Task<ActionResult<UserDto>> GetCurrentUser(){
-      
-
           var user = await _userManager.FindByEmailFromClaimsPrinciple(User);
            return new UserDto{
            Email = user.Email,
@@ -87,8 +89,9 @@ namespace API.Controllers
         [HttpPost("register")]
         public async Task<ActionResult<UserDto>> Register(RegisterDto registerDto){
           if(CheckEmailExistsAsync(registerDto.Email).Result.Value){
-            //TODO:important
-            //return BadRequestObjectResult(new ApiValidationErrorResponse{Errors = new[]{"Email address is in use"}});
+    
+         return new BadRequestObjectResult(new ApiValidationErrorResponse 
+                    { Errors = new[] { "Email address is in use" } });
           }
          var user = new AppUser{
           DisplayName = registerDto.DisplayName,

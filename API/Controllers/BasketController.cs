@@ -35,11 +35,7 @@ namespace API.Controllers
         [HttpPost]
         public async Task<ActionResult<CustomerBasket>> UpdateBasket(CustomerBasketDto basket)
         {
-            // if (basket == null || string.IsNullOrEmpty(basket.Id))
-            // {
-            //     return BadRequest("Invalid basket data");
-            // }
-
+        
             var customerBasket = _mapper.Map<CustomerBasketDto,CustomerBasket>(basket);
 
             var updateBasket = await _basketRepository.UpdateBasketAsync(customerBasket);

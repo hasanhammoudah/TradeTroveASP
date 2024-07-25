@@ -8,6 +8,9 @@ namespace Core.Interfaces
     public interface IGenericRepository<T> where T : BaseEntity
     {
         Task<T> GetByIdAsync(int id);
+             ///<summary>
+            ///  In summary, IReadOnlyList<T> is useful for scenarios where you need to expose a list of elements but want to ensure that the collection remains unchanged by the consumers of the API.
+           /// </summary>
         Task<IReadOnlyList<T>> ListAllAsync();
 
         Task<T> GetEntityWithSpec(ISpecification<T> spec);
