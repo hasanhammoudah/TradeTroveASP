@@ -12,9 +12,9 @@ export class TestInputComponent implements ControlValueAccessor {
  @Input() label='';
 
  //TODO: what means @Self() here
- constructor(@Self() public controlDir: NgControl){
- 
- }
+ constructor(@Self() public controlDir: NgControl) {
+  this.controlDir.valueAccessor = this
+}
 
 
   writeValue(obj: any): void {

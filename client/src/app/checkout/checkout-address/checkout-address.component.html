@@ -1,7 +1,11 @@
 <div class="mt-4" *ngIf="checkoutForm" [formGroup]="checkoutForm">
     <div class="d-flex justify-content-between align-items-center">
         <h4>Shipping address</h4>
-        <button class="btn btn-outline-success mb-3" (click)="saveUserAddress()" [disabled]="!checkoutForm.get('addressForm')?.valid || !checkoutForm.get('addressForm')?.dirty">
+        <button class="btn btn-outline-success mb-3"
+            (click)="saveUserAddress()"
+            [disabled]="!checkoutForm.get('addressForm')?.valid || 
+                !checkoutForm.get('addressForm')?.dirty"
+        >
             Save as default address
         </button>
     </div>
@@ -27,12 +31,12 @@
     </div>
 </div>
 
-<div class="d-flex justify-content-between flex-row b-5" routerLink="/basket">
-    <button class="btn btn-outline-primary">
+
+<div class="d-flex justify-content-between flex-row mb-5">
+    <button class="btn btn-outline-primary" routerLink="/basket">
         <i class="fa fa-angle-left"></i> Back to basket
     </button>
-
-        <button class="btn btn-primary" cdkStepperNext>
-       Go to Delivery <i class="fa fa-angle-right"></i>
+    <button [disabled]="checkoutForm?.get('addressForm')?.invalid" class="btn btn-primary" cdkStepperNext>
+        Go to Delivery <i class="fa fa-angle-right"></i> 
     </button>
 </div>

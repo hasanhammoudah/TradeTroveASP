@@ -1,5 +1,6 @@
 import { Address } from "./user";
 
+
 export interface OrderToCreate {
     basketId: string;
     deliveryMethodId: number;
