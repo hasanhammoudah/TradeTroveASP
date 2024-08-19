@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "i7bNvRfQn+U=",
+  "dgSpecHash": "K0jVmvl4SfE=",
   "success": true,
-  "projectFilePath": "C:\\Users\\owner\\desktop\\skinet\\Infrastructure\\Infrastructure.csproj",
+  "projectFilePath": "C:\\Users\\owner\\Desktop\\skinet\\Infrastructure\\Infrastructure.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\owner\\.nuget\\packages\\microsoft.aspnetcore.authentication\\2.2.0\\microsoft.aspnetcore.authentication.2.2.0.nupkg.sha512",
     "C:\\Users\\owner\\.nuget\\packages\\microsoft.aspnetcore.authentication.abstractions\\2.2.0\\microsoft.aspnetcore.authentication.abstractions.2.2.0.nupkg.sha512",

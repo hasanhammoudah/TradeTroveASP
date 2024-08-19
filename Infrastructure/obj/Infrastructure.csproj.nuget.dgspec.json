@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\owner\\desktop\\skinet\\Infrastructure\\Infrastructure.csproj": {}
+    "C:\\Users\\owner\\Desktop\\skinet\\Infrastructure\\Infrastructure.csproj": {}
   },
   "projects": {
-    "C:\\Users\\owner\\desktop\\skinet\\Core\\Core.csproj": {
+    "C:\\Users\\owner\\Desktop\\skinet\\Core\\Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\owner\\desktop\\skinet\\Core\\Core.csproj",
+        "projectUniqueName": "C:\\Users\\owner\\Desktop\\skinet\\Core\\Core.csproj",
         "projectName": "Core",
-        "projectPath": "C:\\Users\\owner\\desktop\\skinet\\Core\\Core.csproj",
+        "projectPath": "C:\\Users\\owner\\Desktop\\skinet\\Core\\Core.csproj",
         "packagesPath": "C:\\Users\\owner\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\owner\\desktop\\skinet\\Core\\obj\\",
+        "outputPath": "C:\\Users\\owner\\Desktop\\skinet\\Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -74,14 +74,14 @@
         }
       }
     },
-    "C:\\Users\\owner\\desktop\\skinet\\Infrastructure\\Infrastructure.csproj": {
+    "C:\\Users\\owner\\Desktop\\skinet\\Infrastructure\\Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\owner\\desktop\\skinet\\Infrastructure\\Infrastructure.csproj",
+        "projectUniqueName": "C:\\Users\\owner\\Desktop\\skinet\\Infrastructure\\Infrastructure.csproj",
         "projectName": "Infrastructure",
-        "projectPath": "C:\\Users\\owner\\desktop\\skinet\\Infrastructure\\Infrastructure.csproj",
+        "projectPath": "C:\\Users\\owner\\Desktop\\skinet\\Infrastructure\\Infrastructure.csproj",
         "packagesPath": "C:\\Users\\owner\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\owner\\desktop\\skinet\\Infrastructure\\obj\\",
+        "outputPath": "C:\\Users\\owner\\Desktop\\skinet\\Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -102,8 +102,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\owner\\desktop\\skinet\\Core\\Core.csproj": {
-                "projectPath": "C:\\Users\\owner\\desktop\\skinet\\Core\\Core.csproj"
+              "C:\\Users\\owner\\Desktop\\skinet\\Core\\Core.csproj": {
+                "projectPath": "C:\\Users\\owner\\Desktop\\skinet\\Core\\Core.csproj"
               }
             }
           }

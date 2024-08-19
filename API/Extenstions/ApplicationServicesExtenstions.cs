@@ -13,6 +13,7 @@ namespace API.Extenstions
     {
         public static IServiceCollection AddApplicationServices(this IServiceCollection services, IConfiguration config)
         {
+            services.AddSingleton<IResponseCacheService,ResponseCacheService>();
             services.AddEndpointsApiExplorer();
             services.AddSwaggerGen();
             services.AddDbContext<StoreContext>(opt =>
