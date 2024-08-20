@@ -10,7 +10,7 @@ namespace API.Controllers
 {
     public class PaymentsController : BaseApiController
     {
-        private readonly string _whSecret;
+        private readonly string _whSecret ;
         private readonly IPaymentService _paymentService;
         private readonly ILogger<PaymentsController> _logger;
         public PaymentsController(IPaymentService paymentService, ILogger<PaymentsController> logger, 
@@ -18,7 +18,7 @@ namespace API.Controllers
         {
             _logger = logger;
             _paymentService = paymentService;
-            // _whSecret = config.GetSection("StripeSettings:WhSecret").Value;
+             _whSecret = config.GetSection("StripeSettings:WhSecret").Value;
         }
 
         [Authorize]
