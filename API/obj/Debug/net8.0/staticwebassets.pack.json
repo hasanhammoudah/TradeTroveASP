@@ -1,76 +1,92 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\owner\\Desktop\\skinet\\api\\wwwroot\\images\\products\\boot-ang1.png",
-      "PackagePath": "staticwebassets\\images\\products\\boot-ang1.png"
+      "Id": "C:\\Users\\owner\\Desktop\\skinet\\api\\wwwroot\\207.05031376b6e8b3f0.js",
+      "PackagePath": "staticwebassets\\207.05031376b6e8b3f0.js"
     },
     {
-      "Id": "C:\\Users\\owner\\Desktop\\skinet\\api\\wwwroot\\images\\products\\boot-ang2.png",
-      "PackagePath": "staticwebassets\\images\\products\\boot-ang2.png"
+      "Id": "C:\\Users\\owner\\Desktop\\skinet\\api\\wwwroot\\333.c9c4248f65ee2f0a.js",
+      "PackagePath": "staticwebassets\\333.c9c4248f65ee2f0a.js"
     },
     {
-      "Id": "C:\\Users\\owner\\Desktop\\skinet\\api\\wwwroot\\images\\products\\boot-core1.png",
-      "PackagePath": "staticwebassets\\images\\products\\boot-core1.png"
+      "Id": "C:\\Users\\owner\\Desktop\\skinet\\api\\wwwroot\\3rdpartylicenses.txt",
+      "PackagePath": "staticwebassets\\3rdpartylicenses.txt"
     },
     {
-      "Id": "C:\\Users\\owner\\Desktop\\skinet\\api\\wwwroot\\images\\products\\boot-core2.png",
-      "PackagePath": "staticwebassets\\images\\products\\boot-core2.png"
+      "Id": "C:\\Users\\owner\\Desktop\\skinet\\api\\wwwroot\\481.ec49da0dbc67c643.js",
+      "PackagePath": "staticwebassets\\481.ec49da0dbc67c643.js"
     },
     {
-      "Id": "C:\\Users\\owner\\Desktop\\skinet\\api\\wwwroot\\images\\products\\boot-redis1.png",
-      "PackagePath": "staticwebassets\\images\\products\\boot-redis1.png"
+      "Id": "C:\\Users\\owner\\Desktop\\skinet\\api\\wwwroot\\605.1d1ec977cabed143.js",
+      "PackagePath": "staticwebassets\\605.1d1ec977cabed143.js"
     },
     {
-      "Id": "C:\\Users\\owner\\Desktop\\skinet\\api\\wwwroot\\images\\products\\glove-code1.png",
-      "PackagePath": "staticwebassets\\images\\products\\glove-code1.png"
+      "Id": "C:\\Users\\owner\\Desktop\\skinet\\api\\wwwroot\\assets\\images\\hero1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\hero1.jpg"
     },
     {
-      "Id": "C:\\Users\\owner\\Desktop\\skinet\\api\\wwwroot\\images\\products\\glove-code2.png",
-      "PackagePath": "staticwebassets\\images\\products\\glove-code2.png"
+      "Id": "C:\\Users\\owner\\Desktop\\skinet\\api\\wwwroot\\assets\\images\\hero2.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\hero2.jpg"
     },
     {
-      "Id": "C:\\Users\\owner\\Desktop\\skinet\\api\\wwwroot\\images\\products\\glove-react1.png",
-      "PackagePath": "staticwebassets\\images\\products\\glove-react1.png"
+      "Id": "C:\\Users\\owner\\Desktop\\skinet\\api\\wwwroot\\assets\\images\\hero3.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\hero3.jpg"
     },
     {
-      "Id": "C:\\Users\\owner\\Desktop\\skinet\\api\\wwwroot\\images\\products\\glove-react2.png",
-      "PackagePath": "staticwebassets\\images\\products\\glove-react2.png"
+      "Id": "C:\\Users\\owner\\Desktop\\skinet\\api\\wwwroot\\assets\\images\\logo.png",
+      "PackagePath": "staticwebassets\\assets\\images\\logo.png"
     },
     {
-      "Id": "C:\\Users\\owner\\Desktop\\skinet\\api\\wwwroot\\images\\products\\hat-core1.png",
-      "PackagePath": "staticwebassets\\images\\products\\hat-core1.png"
+      "Id": "C:\\Users\\owner\\Desktop\\skinet\\api\\wwwroot\\assets\\images\\placeholder.png",
+      "PackagePath": "staticwebassets\\assets\\images\\placeholder.png"
     },
     {
-      "Id": "C:\\Users\\owner\\Desktop\\skinet\\api\\wwwroot\\images\\products\\hat-react1.png",
-      "PackagePath": "staticwebassets\\images\\products\\hat-react1.png"
+      "Id": "C:\\Users\\owner\\Desktop\\skinet\\api\\wwwroot\\common.9b909a61c74736b5.js",
+      "PackagePath": "staticwebassets\\common.9b909a61c74736b5.js"
     },
     {
-      "Id": "C:\\Users\\owner\\Desktop\\skinet\\api\\wwwroot\\images\\products\\hat-react2.png",
-      "PackagePath": "staticwebassets\\images\\products\\hat-react2.png"
+      "Id": "C:\\Users\\owner\\Desktop\\skinet\\api\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "C:\\Users\\owner\\Desktop\\skinet\\api\\wwwroot\\images\\products\\sb-ang1.png",
-      "PackagePath": "staticwebassets\\images\\products\\sb-ang1.png"
+      "Id": "C:\\Users\\owner\\Desktop\\skinet\\api\\wwwroot\\fontawesome-webfont.2b13baa7dd4f54c9.eot",
+      "PackagePath": "staticwebassets\\fontawesome-webfont.2b13baa7dd4f54c9.eot"
     },
     {
-      "Id": "C:\\Users\\owner\\Desktop\\skinet\\api\\wwwroot\\images\\products\\sb-ang2.png",
-      "PackagePath": "staticwebassets\\images\\products\\sb-ang2.png"
+      "Id": "C:\\Users\\owner\\Desktop\\skinet\\api\\wwwroot\\fontawesome-webfont.8a7cb27d142e3e19.ttf",
+      "PackagePath": "staticwebassets\\fontawesome-webfont.8a7cb27d142e3e19.ttf"
     },
     {
-      "Id": "C:\\Users\\owner\\Desktop\\skinet\\api\\wwwroot\\images\\products\\sb-core1.png",
-      "PackagePath": "staticwebassets\\images\\products\\sb-core1.png"
+      "Id": "C:\\Users\\owner\\Desktop\\skinet\\api\\wwwroot\\fontawesome-webfont.cf011583fb81df9f.woff",
+      "PackagePath": "staticwebassets\\fontawesome-webfont.cf011583fb81df9f.woff"
     },
     {
-      "Id": "C:\\Users\\owner\\Desktop\\skinet\\api\\wwwroot\\images\\products\\sb-core2.png",
-      "PackagePath": "staticwebassets\\images\\products\\sb-core2.png"
+      "Id": "C:\\Users\\owner\\Desktop\\skinet\\api\\wwwroot\\fontawesome-webfont.da909aa098b0ee2d.svg",
+      "PackagePath": "staticwebassets\\fontawesome-webfont.da909aa098b0ee2d.svg"
     },
     {
-      "Id": "C:\\Users\\owner\\Desktop\\skinet\\api\\wwwroot\\images\\products\\sb-react1.png",
-      "PackagePath": "staticwebassets\\images\\products\\sb-react1.png"
+      "Id": "C:\\Users\\owner\\Desktop\\skinet\\api\\wwwroot\\fontawesome-webfont.e9955780856cf8aa.woff2",
+      "PackagePath": "staticwebassets\\fontawesome-webfont.e9955780856cf8aa.woff2"
     },
     {
-      "Id": "C:\\Users\\owner\\Desktop\\skinet\\api\\wwwroot\\images\\products\\sb-ts1.png",
-      "PackagePath": "staticwebassets\\images\\products\\sb-ts1.png"
+      "Id": "C:\\Users\\owner\\Desktop\\skinet\\api\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "C:\\Users\\owner\\Desktop\\skinet\\api\\wwwroot\\main.d8416a721f2f061d.js",
+      "PackagePath": "staticwebassets\\main.d8416a721f2f061d.js"
+    },
+    {
+      "Id": "C:\\Users\\owner\\Desktop\\skinet\\api\\wwwroot\\polyfills.9235a755e281251e.js",
+      "PackagePath": "staticwebassets\\polyfills.9235a755e281251e.js"
+    },
+    {
+      "Id": "C:\\Users\\owner\\Desktop\\skinet\\api\\wwwroot\\runtime.91bf98b23341b3c9.js",
+      "PackagePath": "staticwebassets\\runtime.91bf98b23341b3c9.js"
+    },
+    {
+      "Id": "C:\\Users\\owner\\Desktop\\skinet\\api\\wwwroot\\styles.2b58aa88a0b279fb.css",
+      "PackagePath": "staticwebassets\\styles.2b58aa88a0b279fb.css"
     },
     {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.API.Microsoft.AspNetCore.StaticWebAssets.props",

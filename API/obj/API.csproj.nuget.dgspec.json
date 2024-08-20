@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\owner\\Desktop\\skinet\\api\\API.csproj": {}
+    "C:\\Users\\owner\\Desktop\\skinet\\API\\API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\owner\\Desktop\\skinet\\api\\API.csproj": {
+    "C:\\Users\\owner\\Desktop\\skinet\\API\\API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\owner\\Desktop\\skinet\\api\\API.csproj",
+        "projectUniqueName": "C:\\Users\\owner\\Desktop\\skinet\\API\\API.csproj",
         "projectName": "API",
-        "projectPath": "C:\\Users\\owner\\Desktop\\skinet\\api\\API.csproj",
+        "projectPath": "C:\\Users\\owner\\Desktop\\skinet\\API\\API.csproj",
         "packagesPath": "C:\\Users\\owner\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\owner\\Desktop\\skinet\\api\\obj\\",
+        "outputPath": "C:\\Users\\owner\\Desktop\\skinet\\API\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "2gkD9XlJtHiv5gZO7Nm1uJYHKXhkuWdvbYGiiy+WZLc=",
+  "Hash": "Rm+ewOpWcvd1vog6Oyd26+9CWpS8tyNvG/bAE6l6Evs=",
   "Source": "API",
   "BasePath": "_content/API",
   "Mode": "Default",
@@ -17,12 +17,12 @@
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\owner\\Desktop\\skinet\\api\\wwwroot\\images\\products\\boot-ang1.png",
+      "Identity": "C:\\Users\\owner\\Desktop\\skinet\\api\\wwwroot\\207.05031376b6e8b3f0.js",
       "SourceId": "API",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\owner\\Desktop\\skinet\\api\\wwwroot\\",
       "BasePath": "_content/API",
-      "RelativePath": "images/products/boot-ang1.png",
+      "RelativePath": "207.05031376b6e8b3f0.js",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -33,15 +33,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\products\\boot-ang1.png"
+      "OriginalItemSpec": "wwwroot\\207.05031376b6e8b3f0.js"
     },
     {
-      "Identity": "C:\\Users\\owner\\Desktop\\skinet\\api\\wwwroot\\images\\products\\boot-ang2.png",
+      "Identity": "C:\\Users\\owner\\Desktop\\skinet\\api\\wwwroot\\333.c9c4248f65ee2f0a.js",
       "SourceId": "API",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\owner\\Desktop\\skinet\\api\\wwwroot\\",
       "BasePath": "_content/API",
-      "RelativePath": "images/products/boot-ang2.png",
+      "RelativePath": "333.c9c4248f65ee2f0a.js",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -52,15 +52,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\products\\boot-ang2.png"
+      "OriginalItemSpec": "wwwroot\\333.c9c4248f65ee2f0a.js"
     },
     {
-      "Identity": "C:\\Users\\owner\\Desktop\\skinet\\api\\wwwroot\\images\\products\\boot-core1.png",
+      "Identity": "C:\\Users\\owner\\Desktop\\skinet\\api\\wwwroot\\3rdpartylicenses.txt",
       "SourceId": "API",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\owner\\Desktop\\skinet\\api\\wwwroot\\",
       "BasePath": "_content/API",
-      "RelativePath": "images/products/boot-core1.png",
+      "RelativePath": "3rdpartylicenses.txt",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -71,15 +71,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\products\\boot-core1.png"
+      "OriginalItemSpec": "wwwroot\\3rdpartylicenses.txt"
     },
     {
-      "Identity": "C:\\Users\\owner\\Desktop\\skinet\\api\\wwwroot\\images\\products\\boot-core2.png",
+      "Identity": "C:\\Users\\owner\\Desktop\\skinet\\api\\wwwroot\\481.ec49da0dbc67c643.js",
       "SourceId": "API",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\owner\\Desktop\\skinet\\api\\wwwroot\\",
       "BasePath": "_content/API",
-      "RelativePath": "images/products/boot-core2.png",
+      "RelativePath": "481.ec49da0dbc67c643.js",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -90,15 +90,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\products\\boot-core2.png"
+      "OriginalItemSpec": "wwwroot\\481.ec49da0dbc67c643.js"
     },
     {
-      "Identity": "C:\\Users\\owner\\Desktop\\skinet\\api\\wwwroot\\images\\products\\boot-redis1.png",
+      "Identity": "C:\\Users\\owner\\Desktop\\skinet\\api\\wwwroot\\605.1d1ec977cabed143.js",
       "SourceId": "API",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\owner\\Desktop\\skinet\\api\\wwwroot\\",
       "BasePath": "_content/API",
-      "RelativePath": "images/products/boot-redis1.png",
+      "RelativePath": "605.1d1ec977cabed143.js",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -109,15 +109,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\products\\boot-redis1.png"
+      "OriginalItemSpec": "wwwroot\\605.1d1ec977cabed143.js"
     },
     {
-      "Identity": "C:\\Users\\owner\\Desktop\\skinet\\api\\wwwroot\\images\\products\\glove-code1.png",
+      "Identity": "C:\\Users\\owner\\Desktop\\skinet\\api\\wwwroot\\assets\\images\\hero1.jpg",
       "SourceId": "API",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\owner\\Desktop\\skinet\\api\\wwwroot\\",
       "BasePath": "_content/API",
-      "RelativePath": "images/products/glove-code1.png",
+      "RelativePath": "assets/images/hero1.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -128,15 +128,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\products\\glove-code1.png"
+      "OriginalItemSpec": "wwwroot\\assets\\images\\hero1.jpg"
     },
     {
-      "Identity": "C:\\Users\\owner\\Desktop\\skinet\\api\\wwwroot\\images\\products\\glove-code2.png",
+      "Identity": "C:\\Users\\owner\\Desktop\\skinet\\api\\wwwroot\\assets\\images\\hero2.jpg",
       "SourceId": "API",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\owner\\Desktop\\skinet\\api\\wwwroot\\",
       "BasePath": "_content/API",
-      "RelativePath": "images/products/glove-code2.png",
+      "RelativePath": "assets/images/hero2.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -147,15 +147,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\products\\glove-code2.png"
+      "OriginalItemSpec": "wwwroot\\assets\\images\\hero2.jpg"
     },
     {
-      "Identity": "C:\\Users\\owner\\Desktop\\skinet\\api\\wwwroot\\images\\products\\glove-react1.png",
+      "Identity": "C:\\Users\\owner\\Desktop\\skinet\\api\\wwwroot\\assets\\images\\hero3.jpg",
       "SourceId": "API",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\owner\\Desktop\\skinet\\api\\wwwroot\\",
       "BasePath": "_content/API",
-      "RelativePath": "images/products/glove-react1.png",
+      "RelativePath": "assets/images/hero3.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -166,15 +166,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\products\\glove-react1.png"
+      "OriginalItemSpec": "wwwroot\\assets\\images\\hero3.jpg"
     },
     {
-      "Identity": "C:\\Users\\owner\\Desktop\\skinet\\api\\wwwroot\\images\\products\\glove-react2.png",
+      "Identity": "C:\\Users\\owner\\Desktop\\skinet\\api\\wwwroot\\assets\\images\\logo.png",
       "SourceId": "API",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\owner\\Desktop\\skinet\\api\\wwwroot\\",
       "BasePath": "_content/API",
-      "RelativePath": "images/products/glove-react2.png",
+      "RelativePath": "assets/images/logo.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -185,15 +185,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\products\\glove-react2.png"
+      "OriginalItemSpec": "wwwroot\\assets\\images\\logo.png"
     },
     {
-      "Identity": "C:\\Users\\owner\\Desktop\\skinet\\api\\wwwroot\\images\\products\\hat-core1.png",
+      "Identity": "C:\\Users\\owner\\Desktop\\skinet\\api\\wwwroot\\assets\\images\\placeholder.png",
       "SourceId": "API",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\owner\\Desktop\\skinet\\api\\wwwroot\\",
       "BasePath": "_content/API",
-      "RelativePath": "images/products/hat-core1.png",
+      "RelativePath": "assets/images/placeholder.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -204,15 +204,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\products\\hat-core1.png"
+      "OriginalItemSpec": "wwwroot\\assets\\images\\placeholder.png"
     },
     {
-      "Identity": "C:\\Users\\owner\\Desktop\\skinet\\api\\wwwroot\\images\\products\\hat-react1.png",
+      "Identity": "C:\\Users\\owner\\Desktop\\skinet\\api\\wwwroot\\common.9b909a61c74736b5.js",
       "SourceId": "API",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\owner\\Desktop\\skinet\\api\\wwwroot\\",
       "BasePath": "_content/API",
-      "RelativePath": "images/products/hat-react1.png",
+      "RelativePath": "common.9b909a61c74736b5.js",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -223,15 +223,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\products\\hat-react1.png"
+      "OriginalItemSpec": "wwwroot\\common.9b909a61c74736b5.js"
     },
     {
-      "Identity": "C:\\Users\\owner\\Desktop\\skinet\\api\\wwwroot\\images\\products\\hat-react2.png",
+      "Identity": "C:\\Users\\owner\\Desktop\\skinet\\api\\wwwroot\\favicon.ico",
       "SourceId": "API",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\owner\\Desktop\\skinet\\api\\wwwroot\\",
       "BasePath": "_content/API",
-      "RelativePath": "images/products/hat-react2.png",
+      "RelativePath": "favicon.ico",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -242,15 +242,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\products\\hat-react2.png"
+      "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "C:\\Users\\owner\\Desktop\\skinet\\api\\wwwroot\\images\\products\\sb-ang1.png",
+      "Identity": "C:\\Users\\owner\\Desktop\\skinet\\api\\wwwroot\\fontawesome-webfont.2b13baa7dd4f54c9.eot",
       "SourceId": "API",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\owner\\Desktop\\skinet\\api\\wwwroot\\",
       "BasePath": "_content/API",
-      "RelativePath": "images/products/sb-ang1.png",
+      "RelativePath": "fontawesome-webfont.2b13baa7dd4f54c9.eot",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -261,15 +261,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\products\\sb-ang1.png"
+      "OriginalItemSpec": "wwwroot\\fontawesome-webfont.2b13baa7dd4f54c9.eot"
     },
     {
-      "Identity": "C:\\Users\\owner\\Desktop\\skinet\\api\\wwwroot\\images\\products\\sb-ang2.png",
+      "Identity": "C:\\Users\\owner\\Desktop\\skinet\\api\\wwwroot\\fontawesome-webfont.8a7cb27d142e3e19.ttf",
       "SourceId": "API",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\owner\\Desktop\\skinet\\api\\wwwroot\\",
       "BasePath": "_content/API",
-      "RelativePath": "images/products/sb-ang2.png",
+      "RelativePath": "fontawesome-webfont.8a7cb27d142e3e19.ttf",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -280,15 +280,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\products\\sb-ang2.png"
+      "OriginalItemSpec": "wwwroot\\fontawesome-webfont.8a7cb27d142e3e19.ttf"
     },
     {
-      "Identity": "C:\\Users\\owner\\Desktop\\skinet\\api\\wwwroot\\images\\products\\sb-core1.png",
+      "Identity": "C:\\Users\\owner\\Desktop\\skinet\\api\\wwwroot\\fontawesome-webfont.cf011583fb81df9f.woff",
       "SourceId": "API",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\owner\\Desktop\\skinet\\api\\wwwroot\\",
       "BasePath": "_content/API",
-      "RelativePath": "images/products/sb-core1.png",
+      "RelativePath": "fontawesome-webfont.cf011583fb81df9f.woff",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -299,15 +299,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\products\\sb-core1.png"
+      "OriginalItemSpec": "wwwroot\\fontawesome-webfont.cf011583fb81df9f.woff"
     },
     {
-      "Identity": "C:\\Users\\owner\\Desktop\\skinet\\api\\wwwroot\\images\\products\\sb-core2.png",
+      "Identity": "C:\\Users\\owner\\Desktop\\skinet\\api\\wwwroot\\fontawesome-webfont.da909aa098b0ee2d.svg",
       "SourceId": "API",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\owner\\Desktop\\skinet\\api\\wwwroot\\",
       "BasePath": "_content/API",
-      "RelativePath": "images/products/sb-core2.png",
+      "RelativePath": "fontawesome-webfont.da909aa098b0ee2d.svg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -318,15 +318,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\products\\sb-core2.png"
+      "OriginalItemSpec": "wwwroot\\fontawesome-webfont.da909aa098b0ee2d.svg"
     },
     {
-      "Identity": "C:\\Users\\owner\\Desktop\\skinet\\api\\wwwroot\\images\\products\\sb-react1.png",
+      "Identity": "C:\\Users\\owner\\Desktop\\skinet\\api\\wwwroot\\fontawesome-webfont.e9955780856cf8aa.woff2",
       "SourceId": "API",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\owner\\Desktop\\skinet\\api\\wwwroot\\",
       "BasePath": "_content/API",
-      "RelativePath": "images/products/sb-react1.png",
+      "RelativePath": "fontawesome-webfont.e9955780856cf8aa.woff2",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -337,15 +337,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\products\\sb-react1.png"
+      "OriginalItemSpec": "wwwroot\\fontawesome-webfont.e9955780856cf8aa.woff2"
     },
     {
-      "Identity": "C:\\Users\\owner\\Desktop\\skinet\\api\\wwwroot\\images\\products\\sb-ts1.png",
+      "Identity": "C:\\Users\\owner\\Desktop\\skinet\\api\\wwwroot\\index.html",
       "SourceId": "API",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\owner\\Desktop\\skinet\\api\\wwwroot\\",
       "BasePath": "_content/API",
-      "RelativePath": "images/products/sb-ts1.png",
+      "RelativePath": "index.html",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -356,7 +356,83 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\products\\sb-ts1.png"
+      "OriginalItemSpec": "wwwroot\\index.html"
+    },
+    {
+      "Identity": "C:\\Users\\owner\\Desktop\\skinet\\api\\wwwroot\\main.d8416a721f2f061d.js",
+      "SourceId": "API",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\owner\\Desktop\\skinet\\api\\wwwroot\\",
+      "BasePath": "_content/API",
+      "RelativePath": "main.d8416a721f2f061d.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\main.d8416a721f2f061d.js"
+    },
+    {
+      "Identity": "C:\\Users\\owner\\Desktop\\skinet\\api\\wwwroot\\polyfills.9235a755e281251e.js",
+      "SourceId": "API",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\owner\\Desktop\\skinet\\api\\wwwroot\\",
+      "BasePath": "_content/API",
+      "RelativePath": "polyfills.9235a755e281251e.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\polyfills.9235a755e281251e.js"
+    },
+    {
+      "Identity": "C:\\Users\\owner\\Desktop\\skinet\\api\\wwwroot\\runtime.91bf98b23341b3c9.js",
+      "SourceId": "API",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\owner\\Desktop\\skinet\\api\\wwwroot\\",
+      "BasePath": "_content/API",
+      "RelativePath": "runtime.91bf98b23341b3c9.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\runtime.91bf98b23341b3c9.js"
+    },
+    {
+      "Identity": "C:\\Users\\owner\\Desktop\\skinet\\api\\wwwroot\\styles.2b58aa88a0b279fb.css",
+      "SourceId": "API",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\owner\\Desktop\\skinet\\api\\wwwroot\\",
+      "BasePath": "_content/API",
+      "RelativePath": "styles.2b58aa88a0b279fb.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\styles.2b58aa88a0b279fb.css"
     }
   ]
 }

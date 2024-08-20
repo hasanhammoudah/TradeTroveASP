@@ -6,6 +6,7 @@ using Infrastructure.Identity;
 using Microsoft.AspNetCore.Identity;
 using Core.Entities.Identity;
 using API.Extensions;
+using Microsoft.Extensions.FileProviders;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -27,11 +28,17 @@ app.UseSwaggerUI();
 
 
 app.UseStaticFiles();
+app.UseStaticFiles(new StaticFileOptions{
+    FileProvider = new  PhysicalFileProvider(Path.Combine(Directory.GetCurrentDirectory(), "Content")),RequestPath="/Content"
+});
+
 app.UseCors("CorsPolicy");
 app.UseAuthentication();
 app.UseAuthorization();
 
 app.MapControllers();
+app.MapFallbackToController("Index","Fallback");
+
 
 //Note This code block sets up a scoped environment, retrieves necessary services like the database 
 //context and logger, attempts to migrate the database and seed initial data, and logs any errors that occur during this process.
