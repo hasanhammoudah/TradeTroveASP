@@ -11,7 +11,12 @@ import { Component, ElementRef, OnInit, ViewChild } from '@angular/core';
   styleUrls: ['./shop.component.scss']
 })
 export class ShopComponent implements OnInit{
-  //TODO what means ViewChild
+     /// <summary>
+    /// @ViewChild is used to access a DOM element or a child component from within the code.
+   /// In the template, you assign a reference to the element using #search.
+   /// In the code, you can use searchTerm to access this element and interact with it, such as reading its value.
+  /// </summary>
+
   @ViewChild('search') serachTerm?: ElementRef;
   products: Product[] = [];
   brands:Brand[]=[];
@@ -47,7 +52,6 @@ export class ShopComponent implements OnInit{
   }
   getBarnds(){
     this.shopService.getBrands().subscribe({
-      //TODO what is ...response
       next:response => this.brands = [{id:0,name:'All'}, ...response],
       error:error=>console.log(error)
     })
@@ -62,7 +66,7 @@ export class ShopComponent implements OnInit{
   }
   onBrandSelected(brandId:number){
     const params=this.shopService.getShopParams();
-    params.brandId =brandId;
+     params.brandId =brandId;
      params.pageNumber=1;
      this.shopService.setShopParams(params);
      this.shopParams=params;
@@ -80,7 +84,6 @@ export class ShopComponent implements OnInit{
 
   onSortSelected(event:any){
     const params=this.shopService.getShopParams();
-
      params.sort =event.target.value;
      this.shopService.setShopParams(params);
      this.shopParams=params;
@@ -90,7 +93,9 @@ export class ShopComponent implements OnInit{
     const params=this.shopService.getShopParams();
 
     if(params.pageNumber !== event){
-      //TODO read more about event object
+      //event Object: Contains information about the event that occurred, such as the target element and the type of event.
+      // It provides methods and properties to access and manage event-related details.
+      //كائن event: يحتوي على معلومات حول الحدث الذي وقع، مثل العنصر الذي أدى إلى الحدث ونوع الحدث. يوفر الكائن خصائص وطرق للوصول إلى تفاصيل الحدث وإدارتها.
       params.pageNumber=event;
        this.shopService.setShopParams(params);
        this.shopParams=params;

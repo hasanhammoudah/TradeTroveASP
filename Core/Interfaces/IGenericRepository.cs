@@ -10,6 +10,7 @@ namespace Core.Interfaces
         Task<T> GetByIdAsync(int id);
              ///<summary>
             ///  In summary, IReadOnlyList<T> is useful for scenarios where you need to expose a list of elements but want to ensure that the collection remains unchanged by the consumers of the API.
+            ///  باختصار، IReadOnlyList<T> مفيد في السيناريوهات التي تحتاج فيها إلى عرض قائمة من العناصر ولكنك تريد التأكد من أن المجموعة تظل دون تغيير من قبل مستهلكي واجهة برمجة التطبيقات.
            /// </summary>
         Task<IReadOnlyList<T>> ListAllAsync();
 

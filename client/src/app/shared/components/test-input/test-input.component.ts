@@ -11,7 +11,7 @@ export class TestInputComponent implements ControlValueAccessor {
  @Input() type='text';
  @Input() label='';
 
- //TODO: what means @Self() here
+ //@Self() يُستخدم لتقييد حقن التبعية إلى المكون أو التوجيه الحالي فقط، مما يمنحك مزيدًا من التحكم في مصدر التبعية.
  constructor(@Self() public controlDir: NgControl) {
   this.controlDir.valueAccessor = this
 }

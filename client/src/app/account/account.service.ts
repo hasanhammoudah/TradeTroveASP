@@ -18,7 +18,6 @@ export class AccountService {
   loadCurrentUser(token:string | null){
     if(token ===null){
        this.currentUserSource.next(null);
-       //TODO what means of
        return of(null);
     }
      let headers = new HttpHeaders();

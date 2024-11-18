@@ -29,10 +29,15 @@ export class ShopService {
     if(this.productCache.size > 0 && useCache){
       if(this.productCache.has(Object.values(this.shopParams).join('-'))){
         this.pagination = this.productCache.get(Object.values(this.shopParams).join('-'));
+        //of() هو مشغل من rxjs يستخدم لتحويل القيمة إلى Observable. هذا يسمح بإرجاع البيانات المخزنة دون الحاجة لإرسال طلب جديد إلى الخادم.
        if(this.pagination) return of(this.pagination);
       }
     }
+
+
     let params = new HttpParams();
+  //append تُستخدم لإضافة معلمات استعلام جديدة إلى كائن HttpParams.
+  //تُعيد نسخة جديدة من HttpParams مع المعلمات الجديدة، مما يسمح بإضافة معلمات متعددة بمرونة دون تعديل الكائن الأصلي
     if(this.shopParams.brandId > 0) params =params.append('brandId',this.shopParams.brandId);
     if(this.shopParams.typeId) params =params.append('typeId',this.shopParams.typeId);
      params =params.append('sort',this.shopParams.sort);
@@ -42,9 +47,14 @@ export class ShopService {
 
     return this.http.get<Pagination<Product[]>>(this.baseUrl + 'products',{params}).pipe(
       map(response=>{
-        //TODO why i do ...
+         // This line merges the existing products with new products from the response
+         // It updates the `this.products` array to include both old and new items
+        // Useful for scenarios like infinite scrolling or pagination where you need to combine data
         //this.products =[...this.products,... response.data];
-        this.productCache.set(Object.values(this.shopParams).join('-'),response);
+        // هذه السطر يدمج المنتجات الحالية مع المنتجات الجديدة من الاستجابة
+        // يقوم بتحديث مصفوفة `this.products` لتشمل كل من العناصر القديمة والجديدة
+        // مفيد في حالات مثل التمرير اللانهائي أو التصفح عبر الصفحات حيث تحتاج لدمج البيانات
+        this.productCache.set(Object.values(this.shopParams).join('-'), response);
         this.pagination = response;
         return response;
       })
@@ -58,7 +68,17 @@ export class ShopService {
     return this.shopParams;
   }
   getProduct(id:number){
-    //TODO what means [...]??
+  // This line converts the values of the productCache Map into an array
+// and uses reduce to merge all products into a single object.
+// It searches for the product with the specified ID in the cached data.
+// If the product is found in the cache, it returns it as an Observable.
+// If not, it makes an HTTP GET request to fetch the product from the server.
+// هذه السطر يحول قيم `productCache` (من نوع Map) إلى مصفوفة
+// ويستخدم `reduce` لدمج جميع المنتجات في كائن واحد.
+// يبحث عن المنتج الذي يحمل المعرف المحدد في البيانات المخزنة مؤقتًا.
+// إذا تم العثور على المنتج في الذاكرة المؤقتة، يتم إرجاعه كـ Observable.
+// إذا لم يكن موجودًا، يتم إرسال طلب HTTP GET للحصول على المنتج من الخادم.
+
     const product = [...this.productCache.values()].reduce((acc,paginatedResult)=>{
       return {...acc,...paginatedResult.data.find(x=>x.id===id)}
     },{} as Product);

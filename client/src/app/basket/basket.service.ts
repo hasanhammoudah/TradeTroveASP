@@ -28,6 +28,7 @@ export class BasketService {
     }));
   }
 
+  //TODO ارجعلهلا 
   setShippingPrice(deliveryMethod:DeliveryMethod){
       const basket = this.getCurrentBasketValue();
        if(basket){
@@ -126,9 +127,9 @@ export class BasketService {
   private calculateTotals(){
     const basket=this.getCurrentBasketValue();
     if(!basket)return;
-    //TODO what means a
     const subtotal = basket.items.reduce((a,b)=>(b.price * b.quantity) + a,0);
      const total = subtotal + basket.shippingPrice;
+     //{} تُستخدم لإنشاء كائن يحتوي على القيم المراد إرسالها، مما يسهل تنظيم وإدارة البيانات، ويجعل الاشتراك في الـ BehaviorSubject أكثر فاعلية عند التعامل مع مجموعة من القيم المرتبطة.
      this.basketTotalSource.next({shipping:basket.shippingPrice,total,subtotal});
   }
 
@@ -137,3 +138,8 @@ export class BasketService {
 
   }
 }
+//reduce هي دالة تقوم بتكرار جميع العناصر في مصفوفة items داخل basket، حيث:
+//b.price * b.quantity: يحسب السعر الإجمالي لكل عنصر عن طريق ضرب سعر العنصر (price) في كميته (quantity).
+//+ a: يضيف الإجمالي للعنصر الحالي إلى المجموع المتراكم (a).
+//0 هو القيمة الابتدائية للمجموع المتراكم.
+//النتيجة هي الإجمالي الفرعي (subtotal) لكل العناصر في السلة. 

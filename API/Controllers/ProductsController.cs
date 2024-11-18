@@ -17,7 +17,8 @@ namespace API.Controllers
         private readonly IGenericRepository<ProductType> _productType;
 
         /// <summary>
-        ///   IMapper: This is the type of the field. IMapper is an interface, typically from the AutoMapper library, which is used for object-to-object mapping in .NET applications. It is commonly used to map data between different object models, such as between data transfer objects (DTOs) and entity models.
+        ///   IMapper: This is the type of the field. IMapper is an interface, typically from the AutoMapper library, which is used for object-to-object mapping in .NET applications.
+        ///   It is commonly used to map data between different object models, such as between data transfer objects (DTOs) and entity models.
         /// </summary>
         private readonly IMapper _mapper;
 
@@ -44,28 +45,18 @@ namespace API.Controllers
         [HttpGet("{id}")]
         [ProducesResponseType(StatusCodes.Status200OK)]
         [ProducesResponseType(typeof(ApiResponse), StatusCodes.Status404NotFound)]
-
         public async Task<ActionResult<ProductToReturnDto>> GetProduct(int id)
         {
             var spec = new ProductsWithTypesAndBrandsSpecification(id);
-            var product = await _productsRepo.GetEntityWithSpec(spec);
-            if (product == null) return NotFound(new ApiResponse(404));
-            return _mapper.Map<Product, ProductToReturnDto>(product);
 
-            // Note i change this code to use autoNapper service
-            // return new ProductToReturnDto
-            // {
-            //     Id = product.Id,
-            //     Name = product.Name,
-            //     Description = product.Description,
-            //     PictureUrl = product.PictureUrl,
-            //     Price = product.Price,
-            //     ProductBrand = product.ProductBrand.Name,
-            //     ProductType = product.ProductType.Name
-            // };
+            var product = await _productsRepo.GetEntityWithSpec(spec);
+
+            if (product == null) return NotFound(new ApiResponse(404));
+
+            return _mapper.Map<Product, ProductToReturnDto>(product);
         }
 
-       [Cached(600)]
+        [Cached(600)]
         [HttpGet("brands")]
         public async Task<ActionResult<IReadOnlyList<ProductBrand>>> GetProductBrands()
         {

@@ -8,12 +8,10 @@ import { Product } from 'src/app/shared/models/product';
   styleUrls: ['./product-item.component.scss']
 })
 export class ProductItemComponent {
-  //TODO
 @Input() product?: Product;
 
 constructor(private basketService:BasketService){}
 addItemToBasket(){
-  //TODO why i add  this.product &&  علما انه بس احذفها بيعطي ايرور
  this.product && this.basketService.addItemToBasket(this.product);
 }
 }

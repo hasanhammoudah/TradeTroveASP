@@ -7,8 +7,8 @@ import { BasketItem } from '../models/basket';
   templateUrl: './basket-summary.component.html',
   styleUrls: ['./basket-summary.component.scss']
 })
-//TODO
 export class BasketSummaryComponent {
+  //EventEmitter: يُستخدم لإرسال الأحداث من المكون إلى مكونات أخرى.
 @Output() addItem = new EventEmitter<BasketItem>();
 @Output() removeItem = new EventEmitter<{id:number,quantity:number}>();
 @Input() isBasket=true;
